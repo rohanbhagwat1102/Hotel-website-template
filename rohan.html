@@ -1,0 +1,561 @@
+
+<head>
+<title>
+    Food Items
+    </title>
+    
+    <!--This is a STYLEsheet-->
+    <style>
+        
+     body{
+        margin: 0px;
+        padding:0px;}
+        
+    .text{
+        margin-top: 200px;
+        margin-left: 70px;
+        text-transform:capitalize;}
+        
+    .Heading{
+         font-size: 3rem;
+         font-family:'Lemonada', cursive;
+         padding: 0px;
+         text-shadow: 2px 2px 2px black;
+         color: yellow;
+         line-height: 1px;
+         font-weight: bolder;}
+        
+      h2{
+         font-size: 1.6rem;
+         font-family:'Lemonada', cursive;
+         padding: 0px;
+         text-shadow: 1px 1px 1px black;
+         color: white;
+         margin-top: 0px;}
+        
+      p{
+        font-size: 20px;
+        color: lightgray;
+        text-shadow: 1px 1px 1px black;}
+        
+      button{
+        padding: 10px;
+        border-radius: 10px;
+        margin-left: 50px;
+        text-transform: uppercase;
+        font-family:'Courgette', cursive; 
+        background-color: white;
+        font-weight: bold;
+        cursor: pointer;
+         transition: all 0.6s ease;}
+        
+      button:hover{
+            background-color: yellow;
+            box-shadow: 2px 2px 8px black;
+            font-weight: bold;}
+        
+    .img-container{
+            position: absolute;
+            top:0;
+            left:0;
+            right: 0;
+            bottom: 0;
+            z-index: -1;}
+        
+    #img1{
+            height: 100%;
+            width: 100%;
+            background-size: cover;
+            background-attachment: fixed;}
+        
+        
+    ul li{
+            display: inline-block;
+            list-style: none;
+            margin-top:  20px;
+            padding: 20px;}
+        
+        ul li a{
+            color:white;
+            font-size: 20px;
+            text-decoration: none;
+            font-weight: 400;
+            letter-spacing: 2px;
+            transition: all 0.7s ease;}
+        
+        ul li a:hover{
+            color: yellow;}
+        
+        .sec{
+            background-color:#4B4B4B;
+            width: 100%;
+            height: 350px;
+            margin-top: 191px;
+            margin-left:0px;
+            box-shadow: inset 0 0 20px 0;}
+        
+        .sec_heading{
+              
+            padding-top: 60px;
+            text-align: center;
+            font-size: 35px;color:white;
+            font-family: 'Libre Baskerville', serif;
+            font-style: italic;
+            text-shadow:2px 2px 2px black;}
+        
+        p{
+            align-content: center;
+            padding-left: 50px;
+            padding-right: 50px;}
+        
+        .pmg1{
+            background-image: url(veg%20food.jpg);
+            width: 100%;height: 300px;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            background-size: cover;}
+        
+         .pmg2{
+            background-image: url(Non-veg%20food.jpg);
+            width: 100%;height: 300px;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            background-size: cover;}
+        
+         .pmg3{
+            background-image: url(Beer.jpg);
+            width: 100%;height: 300px;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            background-size: cover;}
+        
+         .pmg4{
+            background-image: url(wine.jpg);
+            width: 100%;height: 300px;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            background-size: cover;}
+        
+         
+        .sec5{ background-color:#3E0303;
+            width: 100%;
+            height:1000px;
+           padding-top:0;
+            margin-left:0px;
+            box-shadow: inset 0 0 20px 0;}
+        
+        .sec5_heading{padding-top: 50px;
+            margin-top: 0px;
+             text-align: center;
+            font-size: 35px;color:white;
+            font-family: 'Libre Baskerville', serif;
+            font-style: italic;
+            text-shadow:2px 2px 2px black;}
+        
+        .sec2{ background-color:#64391F;
+            width: 100%;
+            height: 690px;
+           padding-top:0;
+            margin-left:0px;
+            box-shadow: inset 0 0 20px 0;}
+        
+        .sec2_heading{padding-top: 50px;
+            margin-top: 0px;
+             text-align: center;
+            font-size: 35px;color:white;
+            font-family: 'Libre Baskerville', serif;
+            font-style: italic;
+            text-shadow:2px 2px 2px black;}
+        
+         
+        .sec3{ background-color:#64391F;
+            width: 100%;
+            height: 690px;
+           padding-top:0;
+            margin-left:0px;
+            box-shadow: inset 0 0 20px 0;}
+        
+        .sec3_heading{padding-top: 50px;
+            margin-top: 0px;
+             text-align: center;
+            font-size: 35px;color:white;
+            font-family: 'Libre Baskerville', serif;
+            font-style: italic;
+            text-shadow:2px 2px 2px black;}
+
+        .sec4{ background-color:#2B2A2A;
+            width: 100%;
+            height: 690px;
+           padding-top:0;
+            margin-left:0px;
+            box-shadow: inset 0 0 20px 0;}
+          
+        .sec4_heading{padding-top: 50px;
+            margin-top: 0px;
+             text-align: center;
+            font-size: 35px;color:white;
+            font-family: 'Libre Baskerville', serif;
+            font-style: italic;
+            text-shadow:2px 2px 2px black;}
+        
+        table{
+        font-size: 27px;
+        margin-left: 50px;
+       color: white;}
+        
+    span
+        {font-size: 15px;}
+    
+    td{
+        padding-left: 100px;
+        padding-bottom: 20px;}
+        
+        #p1{ font-size: 20px;
+      margin-left: 420px;
+       color: white;
+        font-weight: 700} 
+        
+         #p2{ font-size: 20px;
+      margin-left: 360px;
+       color: white;
+        font-weight: 700} 
+        
+        
+        #p3{
+            font-size: 15px;
+            text-align: center;
+            color: white;
+            font-weight: 200;
+        }
+        
+    </style>
+<!--stylesheet over-->
+
+</head>
+
+
+
+
+
+
+<!--HTML code-->
+
+
+   <body>
+<!--header-->
+          <div>
+       
+           <ul>
+                <li> <a href="index.html">HOME</a></li>
+              <li><a href="#veg" class="home">VEG</a></li> 
+              <li><a href="#nonveg">NON-VEG</a></li>  
+              <li><a href="#beer">BEER</a> </li> 
+              <li> <a href="#wine">WINE</a></li> 
+            
+         </ul>
+
+     </div>
+      
+<!--text-->  
+    <div class="text">
+
+    <h1 class="Heading">food that you can't resist</h1>
+    <h2>Enjoy the marvelous taste</h2>
+    <p>" If you're not the one cooking, stay out of the way and compliment the chef. "</p>
+    <a href="Order.html" target="_blank"><button>Order Now</button></a>
+
+<!--Background img-->
+    </div>
+    
+    <div class="img-container">
+    
+    <img src="Food.jpg" id="img1">
+        
+ <!--Section1 starts-->
+        
+    </div>
+    
+    <section class="sec">
+    <h1 class="sec_heading">"...the best Indian food I've ever had"</h1>
+    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Indian food-lover’s dream, Starwood’s food is prepared for you using the finest seasonal ingredients in separate vegetarian and non-vegetarian kitchens by our specially trained chefs. Good food has the ability to delight your sense of taste and leave you happier. Our menu features a large range of vegetables, meats and delicious desserts from India’s rich culture including authentic south Indian cuisine that tastes like it came straight from Kerala. Each menu item is specifically tailored with flair and attention to detail is characteristic of Starwoods for every occasion, whether it be a large dinner party, family outing, intimate first date. Regardless of the occasion, you can always expect a great atmosphere with great food at the Starwood.</p>
+    </section>
+   
+<!--Image2-->
+       
+    <div class="pmg1"></div>
+    
+<!--Section2-->
+       
+    <section class="sec2" id="veg">
+    
+    <h1 class="sec2_heading">Vegetarian Items</h1>
+      <br>
+        
+<!--Veg menu-->       
+      <table>
+    
+    <tr>
+          <td>Aloo Gobhi............................<br>
+              <span>Potatoes, cauliflower and green peas cooked in a tomato and onion sauce.</span>
+          </td>
+        
+          <td>Malai Kofta...........................<br>
+               <span>Cheese and vegetable dumplings simmered in a cream and almond sauce.</span>
+          </td>
+    </tr>
+    
+          
+     <tr>
+          <td>Baigan Bharta........................<br>
+              <span>Roasted eggplant stuffed with spices then simmered in a special sauce.</span>
+          </td>
+        
+          <td>Mutter Panner........................<br>
+               <span>Peas with cubes of cheese sautéed with creamy curry sauce.</span>
+          </td>
+    </tr>
+    
+    
+     <tr>
+          <td>Bhindi Do-Paiza ...................<br>
+              <span>Cut Okra sautéed and cooked with tomato, onion and spices.</span>
+          </td>
+        
+          <td>Navrattan Korma.....................<br>
+               <span>Blend of fresh garden vegetables, nuts and raisins with a touch of
+aromatic cream sauce.</span>
+          </td>
+    </tr>
+    
+     
+     <tr>
+          <td>Chana Masala........................<br>
+              <span>Garbanzo beans satuéed with spices in kadai, a traditional Indian wok.</span>
+          </td>
+        
+          <td>Paneer Tikka Masala.....................<br>
+               <span>Cubes of homemade cheese sautéed and curried in a creamy based masala sauce.</span>
+          </td>
+    </tr>
+    
+     <tr>
+          <td>Channa Saag........................<br>
+              <span>Baby spinach with chickpeas sautéed with creamy curry sauce.</span>
+          </td>
+        
+          <td>Shimla Mirch........................<br>
+               <span>Roasted bell pepper stuffed with spiced vegetables.</span>
+          </td>
+    </tr>
+   
+    
+      <tr>
+          <td>Dal Makhni........................<br>
+              <span>Whole buttered black lentils slow cooked and tempered with ginger,garlic and tomato.</span>
+          </td>
+        
+          <td>Saag Paneer........................<br>
+               <span>Chopped spinach with cubes of paneer cheese sautéed with creamy curry sauce.</span>
+          </td>
+    </tr>
+    
+    
+    <tr>
+          <td>Dal Tadka..........................<br>
+              <span>Lentils cooked in ginger-garlic blend and seasoned with cumin seeds and asafetida.</span>
+          </td>
+        
+          <td>Vegetable Jalfrezie........................<br>
+               <span>Assorted garden vegetables sautéed with onions and peppers.</span>
+          </td>
+    </tr>
+    
+    </table>
+
+    </section>
+       
+<!--Image 3-->       
+        <div class="pmg2"></div>
+       
+<!-- Section 3-->       
+          <section class="sec3" id="nonveg">
+    
+    <h1 class="sec3_heading">Non-Vegetarian Items</h1>
+      <br>
+        
+<!--Non-Veg menu-->       
+      <table>
+    
+    <tr>
+          <td>Butter masala............................<br>
+              <span>Choice of protein cooked with creamy tomato and spicy gravy.</span>
+          </td>
+        
+          <td>Bhuna...........................<br>
+               <span>Choice of protein cooked with garlic, ginger, and onion to create a thick gravy.
+</span>
+          </td>
+    </tr>
+    
+          
+     <tr>
+          <td>Homestyle curry........................<br>
+              <span>Choice of protein with traditional style curry</span>
+          </td>
+        
+          <td>Madras Special Curry........................<br>
+               <span>Choice of protein cooked with mustard seeds, coconut and kari patta</span>
+          </td>
+    </tr>
+    
+    
+     <tr>
+          <td>Saag Masala ...................<br>
+              <span>Choice of protein cooked with fresh chopped spinach and mustard leaf
+with light spices</span>
+          </td>
+        
+          <td>Shahi Korma.....................<br>
+               <span>Choice of protein in creamy sauce made with almonds, saffron,
+cashews, and spices.</span>
+          </td>
+    </tr>
+    
+     
+     <tr>
+          <td>Tikka Masala........................<br>
+              <span>Choice of protein marinated and simmered in a creamy masala sauce.</span>
+          </td>
+        
+          <td>Vindaloo.....................<br>
+               <span>Choice of protein in rich tangy gravy and potatoes.
+</span>
+          </td>
+    </tr>
+    
+     <tr>
+          <td>Jalfrezi........................<br>
+              <span>Choice of protein stir fried with assorted garden vegetables and spices.
+</span>
+          </td>
+        
+          <td>Mango Masala........................<br>
+               <span>Choice of protein cooked with mango and spices</span>
+          </td>
+    </tr>
+   
+    
+      <tr>
+          <td>Rogangosh........................<br>
+              <span>Choice of protein cooked with cinnamon, cardamom, bay leaves,
+turmeric, and coriander. </span>
+          </td>
+        
+          <td>Methi Masala........................<br>
+               <span>Choice of protein cooked with fresh chopped spinach and mustard leaf
+with light spices</span>
+          </td>
+    </tr>
+    
+    
+    <tr>
+          <td>Chicken Malai Tikka ...........................<br>
+              <span>Boneless chicken tenders marinated in spices.</span>
+          </td>
+        
+          <td>Fish Tikka........................<br>
+               <span>Choice of Salmon or Mahi Mahi.</span>
+          </td>
+    </tr>
+    
+    </table>
+
+    </section>
+<!--Image 4-->
+         <div class="pmg3"></div>
+       
+<!--Section 4-->
+       <section class="sec4" id="beer">
+       
+       <h1 class="sec4_heading">Beers</h1>
+      <br>
+       
+       <p id="p1">Flying Horse 22 Fl. Oz. (Indian)........................
+           <br><br>
+         Tajmahal 22 Fl. Oz. (Indian) .............................
+           <br><br>
+         Maharaja 12 Fl. Oz. (Indian).............................
+           <br><br>
+         King Fisher 12 Fl. Oz. (Indian) ........................
+           <br><br>
+         Michelob Ultra .........................................
+           <br><br>
+         Aviator Ground Tripel...................................
+           <br><br>
+         Budweiser ..............................................
+           <br><br>
+         Bud Light...............................................
+           <br><br>
+         Heineken................................................
+           <br><br>
+          Appalachian Long Leaf IPA .............................
+           <br><br>
+        </p>
+       
+       </section>
+<!--Image 5-->       
+       
+        <div class="pmg4"></div>
+       
+<!--section 5-->       
+        <section class="sec5" id="wine">
+       
+       <h1 class="sec4_heading">Wine</h1>
+      <br>
+       
+       <p id="p2"> J. Lohr 7 Oaks Cabernet Sauvignon, Paso Robles (Red Wine)........................
+           <br><br>
+          Matchbook Tinto Rey Red Blend, California (Red Wine) .............................
+           <br><br>
+        Fede Barbera D’Asti 2015 (Piemonte/ Italy).............................
+           <br><br>
+       Voga Rosé of Pinot Grigio (Sparkling) ........................
+           <br><br>
+        Sea Glass Sauvignon, California (White Wine) .........................................
+           <br><br>
+     Woodbridge White Zinfandel...................................
+           <br><br>
+         Peirano Illusion (Red Blend)  ..............................................
+           <br><br>
+         Robert Mondavi Chardonnay, NAPA...............................................
+           <br><br>
+         Pinot Noir................................................
+           <br><br>
+          Perelada Cava Brut Reserva (Sparkling).............................
+           <br><br>
+        </p>
+       <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <hr style="border-width: thin">
+            <br>
+            <br>
+            <br>
+            <br>
+        
+       
+       
+     <p id="p3">  Starwood Restaurant - 1311 E Broad Street, Fuquay-Varina, NC 27526 - (919) 762-6215 - www.starwood.com<br>
+18% Service Charge Will Be Added To Parties Of 6 Or More<br>
+** Please let your server know of any allergies.<br>
+         We will not assume any liability for adverse reactions to food consumed, or items one may come in contact with while eating at our establishment.</p>
+       </section>
+       
+       
+       
+       
+</body>
